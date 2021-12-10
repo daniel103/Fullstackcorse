@@ -1,0 +1,81 @@
+body{
+    background-color:aquamarine;
+    direction: rtl;
+    margin: 0; 
+}
+
+header{
+    background-color:aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: slateblue;
+}
+
+.img {
+    height: 400px;
+    background-color: darkslategray;
+    top: 50px;
+    margin: 0;
+}
+
+.name{
+    font-size: 50px;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+p.work{
+    font-size: 20px;
+    background-color:slateblue;
+    display: inline-block;
+}
+
+#profile {
+    border-radius: 30%;
+    display: inline-block;
+    position: relative;
+    right: 75%;
+    width: 250px;
+    height: 300px;
+}
+
+.padding{
+    background-color: darkslategray;
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+#proyectone{
+    flex-direction: column;
+    left: 0;
+    padding: 40px;
+    
+}
+
+.left{
+    display: block;
+    left: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 20px;
+}
+
+.single-proyect{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#submit{
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    margin-right: 50%;
+}

@@ -1,0 +1,68 @@
+// declare an object with the following keys: name, age, id
+// let myObj = {name: "tal", age: 80, id: 316390000 };
+// // print to the console the name and the id in the object
+// console.log(myObj.name);
+// console.log(myObj.id);
+// // replace the value in id and print to the console again
+// myObj.id = 317391234;
+// console.log(myObj.id);
+// // using the same data, console log the following phrase "My name is (name) 
+// // and my id is (id)"
+// console.log("My name is " + myObj.name + " and my id is " + myObj.id);
+
+
+// // declare an array variable with 5 number elements in it
+// let myArr = [10,20,10,30,30];
+// // check if the 3rd element is equal to 10, and if so print "equal" to the console.
+// if ( myArr[2] == 10 ) {
+//     console.log('equal');
+// // else print "not equal";
+// } else {
+//     console.log('not equal');
+// }
+
+// //declare 2 variables,
+// let var1 = 30;
+// let var2 = 30;
+// // and check which one is the greater one. 
+// // print to the console "The greater number of X and Y is (greater number)"
+// if ( var1 > var2 ){
+//     console.log("The greater number of " + var1 + " and " + var2 + " is " + var1);
+// } else {
+//     console.log("The greater number of " + var1 + " and " + var2 + " is " + var2);
+// }
+
+// declare a variable with a number between 0 - 100 in it
+// if the number is 10 or higher print "F" to the console
+// if the number is 20 or higher print "D" to the console
+// if the number is 50 or higher print "C" to the console
+// if the number is 80 or higher print "B" to the console
+// if the number is 90 or higher print "A" to the console
+// check that the program works for the following numbers: 10, 100, 35, 78
+// you are suppose to get only 1 print to the console
+let grade = 10;
+if ( grade >= 90 ) {
+    console.log("A");
+} else if ( grade >= 80 ) {
+    console.log("B");
+} else if ( grade >= 50 ) {
+    console.log("C");
+} else if ( grade >= 20 ) {
+    console.log("D");
+} else if ( grade >= 10 ) {
+    console.log("F");
+}
+
+
+// declare 1 variable, each containing one of the following: human, animal or plant
+let type1 = "plant";
+let img_url;
+// foreach of the options, insert the document with image element 
+if ( type1 == 'animal') {
+    img_url = 'https://images.unsplash.com/photo-1602557496847-11ea01879c87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80';
+} else if ( type1 == 'human' ) {
+    img_url = 'https://www.companioncare.co.uk/globalassets/companion-care/white-and-brown-rabbit.jpg?width=1040';
+} else if ( type1 == 'plant' ) {
+    img_url = 'https://www.trigartflowernursery.com/wp-content/uploads/2020/12/red-rose.jpg';
+}
+document.write('<img src="' + img_url +'">');

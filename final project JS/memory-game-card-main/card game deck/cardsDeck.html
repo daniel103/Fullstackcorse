@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cardsDeckStyle.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>memory game</title>
+</head>
+<body>
+   <main>
+        <div class="timer">time: <span id="minutes">00</span>:<span id="seconds">00</span></div><br>
+        <div class="buttons">
+            <button id="button-start">Continue</button>
+            <button id="button-stop">Pause</button>
+            <button id="button-reset">Restart</button>
+        </div>
+            <p class="user_data">WELCOME:     <span id="writename"></span><br></p>
+            <p class="user_data">YOUR MAIL:   <span id="writemail"></span><br></p>
+            <p class="user_data">SCORE: <span id="score">0</span></p>
+        <section class="cards-area">
+            <div class="cards-container">
+                      <img src="./photos/הכוהנת-הגדולה.jpg" alt="the-high-priestess" class="front-of-card" data-cardtype="high-priestess">
+                      <img src="./photos/back-of-card.jpg" alt="the-back-of-card" class="back-of-card">
+                  </div>
+                  <div class="cards-container">
+                      <img src="./photos/התלוי.jpg" alt="the-hanged-man" class="front-of-card" data-cardtype="hanged-man">
+                      <img src="./photos/back-of-card.jpg" alt="the-back-of-card" class="back-of-card">
+                  </div>
+                  <div class="cards-container">
+                      <img src="./photos/נסיך-מטות.jpg"  alt="page-of-wands" class="front-of-card" data-cardtype="page-of-wands">
+                      <img src="./photos/back-of-card.jpg" alt="the-back-of-card" class="back-of-card">
+                  </div>
+                  <div class="cards-container">
+                      <img src="./photos/צדק.jpg" alt="justice" class="front-of-card" data-cardtype="justice">
+                      <img src="./photos/back-of-card.jpg" alt="the-back-of-card" class="back-of-card">
+                  </div>
+                  <div class="cards-container">
+                      <img src="./photos/שלושה-מטות.jpg" alt="three-wands" class="front-of-card" data-cardtype="three-wands">
+                      <img src="./photos/back-of-card.jpg" alt="the-back-of-card" class="back-of-card">
+                  </div>
+                  <div class="cards-container">
+                      <img src="./photos/שמונה-מטבעות.jpg" alt="eight-coins" class="front-of-card" data-cardtype="eight-coins">
+                      <img src="./photos/back-of-card.jpg" alt="the-back-of-card" class="back-of-card">
+                  </div>
+                  <div class="cards-container">
+                      <img src="./photos/הכוהנת-הגדולה.jpg" alt="the-high-priestess" class="front-of-card" data-cardtype="high-priestess">
+                      <img src="./photos/back-of-card.jpg" alt="the-back-of-card" class="back-of-card">
+                  </div>
+                  <div class="cards-container">
+                      <img src="./photos/התלוי.jpg" alt="the-hanged-man" class="front-of-card" data-cardtype="hanged-man">
+                      <img src="./photos/back-of-card.jpg" alt="the-back-of-card" class="back-of-card">
+                  </div>
+                  <div class="cards-container">
+                      <img src="./photos/נסיך-מטות.jpg"  alt="page-of-wands" class="front-of-card" data-cardtype="page-of-wands">
+                      <img src="./photos/back-of-card.jpg" alt="the-back-of-card" class="back-of-card">
+                  </div>
+                  <div class="cards-container">
+                      <img src="./photos/צדק.jpg" alt="justice" class="front-of-card" data-cardtype="justice">
+                      <img src="./photos/back-of-card.jpg" alt="the-back-of-card" class="back-of-card">
+                  </div>
+                  <div class="cards-container">
+                      <img src="./photos/שלושה-מטות.jpg" alt="three-wands" class="front-of-card" data-cardtype="three-wands">
+                      <img src="./photos/back-of-card.jpg" alt="the-back-of-card" class="back-of-card">
+                  </div>
+                  <div class="cards-container">
+                      <img src="./photos/שמונה-מטבעות.jpg" alt="eight-coins" class="front-of-card" data-cardtype="eight-coins">
+                      <img src="./photos/back-of-card.jpg" alt="the-back-of-card" class="back-of-card">
+                  </div> 
+        </section>
+        <div id="popup">
+            <div id="popup-child">
+                <button type="button" id="close">X</button>
+                <table id="table1">
+                    <tr>
+                      <th>name</th>
+                      <th>email</th>
+                      <th>time</th>
+                    </tr>
+                    <tr>
+                        <td><p class="user"><span id="name_of_user"></span></p></td>
+                        <td><p class="user"><span id="mail_of_user"></span></p></td>
+                        <td><p class="user"><span id="time_of_user"></span></p></td>
+                      </tr>
+                    <tr>
+                      <td>daniel</td>
+                      <td>danl3654321@gmai.com</td>
+                      <td>02:26</td>
+                    </tr>
+                    <tr>
+                      <td>matan</td>
+                      <td>matan1234@gmail.com</td>
+                      <td>02:40</td>
+                    </tr>
+                    <tr>
+                      <td>yakov</td>
+                      <td>yakov7890@gamil.com</td>
+                      <td>02:45</td>
+                    </tr>
+                    <tr>
+                        <td>yossi</td>
+                        <td>yossi5850@gamil.com</td>
+                        <td>03:35</td>
+                      </tr>
+                </table>
+                  <table id="table2">
+                    <tr>
+                      <th>name</th>
+                      <th>email</th>
+                      <th>score</th>
+                    </tr>
+                    <tr>
+                        <td><p class="user"><span id="name_user"></span></p></td>
+                        <td><p class="user"><span id="mail_user"></span></p></td>
+                        <td><p class="user"><span id="score_of_user"></span></p></td>
+                      </tr>
+                    <tr>
+                      <td>daniel</td>
+                      <td>danl3654321@gmai.com</td>
+                      <td>5</td>
+                    </tr>
+                    <tr>
+                      <td>matan</td>
+                      <td>matan1234@gmail.com</td>
+                      <td>4</td>
+                    </tr>
+                    <tr>
+                      <td>yakov</td>
+                      <td>yakov7890@gamil.com</td>
+                      <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>yossi</td>
+                        <td>yossi5850@gamil.com</td>
+                        <td>2</td>
+                      </tr>
+                  </table>
+                <form action="../registration page/amudrishum/amudrishum.html">
+                <input type="submit" value="play again" id="button" class="center">
+                </form>
+                <div class="whatsapp_float">
+                    <a href="" id="url_whatsapp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+                <div class="email">
+                    <a href="" id="url_mail"><i class="fas fa-envelope-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <script src="cardsDeck.js"></script>
+    </main>
+</body>
+</html>

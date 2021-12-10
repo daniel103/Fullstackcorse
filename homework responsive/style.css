@@ -1,0 +1,317 @@
+html {
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+}
+
+body {
+    margin: 0 auto;
+}    
+
+#profile {
+    background-image: url(pagecover.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2mm;
+    height: 50vh;
+    margin-bottom: 2rem;
+    display: block;
+}
+
+#title {
+    font-size: 3rem;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-top: 0.2.8rem;
+}
+
+.button {
+    font-size: 1.4rem;
+    color:#ffff;
+    background-color: #db4700;
+    width: 9.2rem;
+    height: 4rem;
+    display: inline-block;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.buttons{
+    justify-content: space-around;
+    display: flex;
+    width: 25rem;
+    margin: 0 auto;
+    margin-top: 8rem;
+}
+
+.me {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.daniel {
+    display: inline-block;
+    margin: 2rem 1rem;
+    text-align: center;
+}
+
+.furry{
+    font-size: 1.2rem;
+}
+
+.price{
+    text-decoration: line-through;
+}
+
+.pricetow{
+    color: rgb(0, 4, 255);
+}
+
+.by{
+    font-size: 0.8rem;
+}
+
+#shop{
+    background-color: #DB4700;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    height: 3.2rem;
+    width: 11rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    flex-flow: column;
+    margin: 2.5rem;
+    margin-left: 7rem;
+}
+
+#cover{
+    background-image: url(covermobile.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    height: 30rem;
+    margin: 0;
+    text-align: center; 
+}
+
+#discover{
+    font-size: 3rem;
+    line-height: 5.04rem;
+    margin-top: 2.5rem;
+    color: #FFFFFF;
+}
+
+#text{
+    font-size: 1.5rem;
+    padding: 2rem;
+    margin-top: 1rem;
+    color: #FFFFFF;
+}
+
+#span{
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #FFFFFF;
+    color: #DB4700;
+    border-radius: 0.5rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    width: 17rem;
+    height: 30rem;
+    background-color: rgb(121, 13, 88);
+    position: fixed;
+    top: 0;
+    right: -21.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20% 0 0 30%;
+    transition: right 1s cubic-bezier(1, 0, 0, 1);
+}
+
+.change {
+    right: 0;
+}
+
+.hamburger-menu {
+    width: 2.5rem;
+    height: 2.2rem;
+    position: fixed;
+    right: 1.6rem;
+    top: 1.6rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.line {
+    width: 100%;
+    height: 0.2rem;
+    background-color: #DB4700;
+    transition: all 0.8s;
+}
+
+.change .line-1 {
+    transform: rotateZ(-45deg) translate(-0.6rem, 0.8rem);
+}
+
+.change .line-2 {
+    opacity: 0;
+}
+
+.change .line-3 {
+    transform: rotateZ(45deg) translate(-0.6rem, -0.8rem);
+}
+
+.nav-list {
+    text-align: right;  
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link{
+    font-size: 2rem;
+    color: rgb(198, 218, 24);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.whatsapp_float {
+    position:fixed;
+    width: 4rem;
+    height: 4.3rem;
+    bottom: 2.8rem;    
+    right: 79%;
+    top: 37rem;
+    background-color:#25d366;
+    border-radius: 3.5rem;
+    text-align: center;
+    font-size: 2.1rem;
+    box-shadow: 2px 2px 3px #999;
+}
+
+.whatsapp-icon {
+    margin-top: 1.1rem;
+}
+
+.fab.fa-whatsapp{
+    margin-top: 0.71rem;
+    font-size: 2.6rem;
+    color:#fff;
+}
+
+#user{
+    text-align: center;
+    background-color: #255cd3;
+    color: #d48a00;
+    font-size: 1.5rem;
+}
+#button{
+    text-align: center;
+    font-size: 2.5rem;
+    width: 8rem;
+    height: 3rem;
+    color: #d48a00;
+    background-color: #255cd3;
+    border-radius: 1.2rem;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+
+@media only screen and (min-width: 1024px) {
+    .hamburger-menu {
+        right: 2rem;
+        top: 2rem;
+    }
+
+    .nav-bar {
+        width: 21.5rem;
+        height: 45rem;
+    }
+
+    .nav-link:hover {
+        text-decoration: none;
+        font-size: 2rem;
+        color: rgb(38, 82, 202);
+        font-weight: 21.5rem;
+    }
+
+    #profile {
+        
+        background-color: darkgrey;
+        background-image: none;
+    }
+
+    #discover{
+        margin-top: 5.7rem;
+    }
+
+    #title {
+        font-size: 4rem;
+    }
+
+    .daniel {
+        text-align: left;
+    }
+
+    #cover{
+        background-image: url('coverdesktop.jpeg');
+        width: 100%;
+    }
+
+    #title {
+        margin-left: 2rem;
+    }
+
+    .button{
+        font-size: 1.2rem;
+        color:#ffff;
+        background-color: #db4700;
+        width: 9rem;
+        height: 3.5rem;
+        border-radius: 0.5rem;
+        margin-top: 10.5rem;
+        margin-left: 1rem;
+    }
+
+    .buttons{
+        margin: 0.8rem;
+    }
+
+    #shop{
+      margin-left: 45%;        
+    }
+
+    #text{
+        color: #DB4700;
+    }
+
+    .whatsapp_float{
+        right: 92%;
+        top: 80%;
+        width: 5.7rem;
+        height: 5.7rem;
+        font-size: 3.5rem;
+        cursor: pointer;
+        background-color: #25d366;
+    }
+
+    .fab.fa-whatsapp{
+        font-size: 3.9rem;
+        text-align: center;
+        color: #fff;
+    }
+}

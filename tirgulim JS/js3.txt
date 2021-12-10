@@ -1,0 +1,78 @@
+// Define a function that writes to the document the string "Hello World" in an H1 tag
+// document.write('<h1>hi</h1>');
+function foo() {
+    document.write('<h1>Hello World</h1>');
+    return 2;
+}
+let reuslt = foo(); // call the function
+
+// Define a function that receives an argument and multiplies its value by 10
+// return the value to a variable
+// check if the variable is higher than 100, print "Over 100", else "Less than 100"
+function multiply( arg1 ) {
+    let res = arg1 * 10;
+    return res;
+}
+
+let result = multiply(11);
+
+if ( result > 100 ) {
+    alert('Over 100');
+} else {
+    alert('Less than 100');
+}
+
+// Define a variable of object type, that holds both a name and age
+// Define a function that receives 2 arguments - name and age, and alerts the phrase:
+// "Your name is (YOUR NAME) and your age is (YOUR AGE)";
+let myObj = {name: 'Tal', age: 80};
+function userDetails( user_name, user_age ) {
+    alert('Your name is '+user_name+' and your age is '+user_age);
+}
+userDetails(myObj.name, myObj.age);
+
+// Define a function called printStars that prints the stars from last lesson, and call it
+// The printing should happend in the console 
+
+function printStars() {
+    let stars = '';
+    for ( let i = 0; i < 5; i++ ) {
+        stars += '*';
+        console.log(stars);
+    }
+}
+
+// For the previous function, add an argument, and pass a number to the function call,
+// the number will be used in the loop to define how many rows of stars we will print
+
+function printStars( numberRows ) {
+    let stars = '';
+    for ( let i = 0; i < numberRows; i++ ) {
+        stars += '*';
+        console.log(stars);
+    }
+}
+
+// Define a function that receives a number and returns the n elements in the fibonacci series
+function fib( n ) {
+    let arr = [0, 1];
+
+    if ( n == 0 ){
+        console.log('No numbers');
+        return;
+    } else if ( n == 1 ) {
+        console.log(arr[0]);
+        return;
+    } else if ( n == 2 ) {
+        console.log(arr);
+        return;
+    }
+
+    let number;
+    for( let i = 2; i < n; i++ ){
+        number = arr[i-2] + arr[i-1];
+        arr.push(number);
+    }
+    console.log(arr);
+}
+fib(2);

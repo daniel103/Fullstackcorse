@@ -1,0 +1,275 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    background-image: url("https://t3.ftcdn.net/jpg/01/59/07/92/360_F_159079250_3oo6EuNF6gPjNe3ABeDhMjzzEDlGVdjO.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cards-area{
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    height: 100vh;
+}
+
+.cards-container{
+    position: relative;
+    margin: 0.3rem;
+    width: 4rem;
+    height: 8rem;
+    transform-style: preserve-3d;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.cards-container.flip {
+    transform: rotateY(180deg);   
+}
+
+.front-of-card {
+    position:absolute;
+    width: 4rem;
+    height: 8rem;
+}
+
+.back-of-card {
+    transform: rotateZ(180deg);
+}
+
+.back-of-card {
+    width: 4rem;
+    height: 8rem;
+    backface-visibility: hidden;
+}
+
+.timer {
+    background-color:rgb(15, 121, 163) ;
+    color: #fff;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+#popup #popup-child {
+    width: 25rem;
+    height: 33rem;
+    position: fixed;
+    top: calc(42% - 13.8rem);
+    left: calc(54% - 14rem);
+    text-align: center;
+    z-index: 1;
+    background-image: url("https://media.istockphoto.com/photos/royal-flush-and-poker-chips-picture-id1182872570?k=20&m=1182872570&s=612x612&w=0&h=d945CSQrpj2v1Wqy2XZVBL0TqalcNKaiK3FQXYb7vBs=");
+    background-size: cover;
+}
+
+#popup::before {
+    content: '';
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#button {
+    background-color: rgb(210, 30, 60);
+    color: #fff;
+    border-radius: 0.4rem;
+    width: 10rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    position: fixed;
+    left: 27%;
+    top: 67%;
+    cursor: pointer;
+}
+
+#popup {
+    display: none;
+}
+
+#close {
+    position: absolute;
+    top: 0.4rem;
+    right: 0.4rem;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    font-weight: 500;
+    color: darkgray;
+    cursor: pointer;
+}
+
+.user_data {
+    font-weight: 600;
+    color: rgb(255, 145, 0);
+    font-size: 2.1rem;
+    text-align: center;
+}
+
+#table1 {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    position: fixed;
+    width: 18rem;
+    height: 5rem;
+    margin-left: 4rem;
+    margin-top: 0.6rem;
+    background-color: rgb(210, 30, 60);
+    color: #000;
+}
+  
+td, th {
+    border: 2.5px solid #000;
+    text-align: center;
+    padding: 3.5px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.buttons {
+    text-align: center;
+}
+
+#button-start{
+    background-color: rgb(16, 117, 218);
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+#button-stop{
+    background-color: rgb(255, 208, 0);
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+#button-reset{
+    background-color: crimson;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+#table2 {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    position: fixed;
+    width: 18rem;
+    height: 5rem;
+    margin-left: 4rem;
+    margin-top: 12rem;
+    background-color: rgb(210, 30, 60);
+    color: #000;
+
+}
+
+.whatsapp_float {
+    position: fixed;
+    width: 4rem;
+    height: 4rem;
+    bottom: 2.8rem;
+    left: 29%;
+    top: 76%;
+    background-color: #25d366;
+    border-radius: 3.5rem;
+    text-align: center;
+    font-size: 2.1rem;
+    box-shadow: 2px 2px 3px #999;
+}
+
+.whatsapp-icon {
+    margin-top: 1.1rem;
+}
+
+.fab.fa-whatsapp {
+    margin-top: 0.71rem;
+    font-size: 2.6rem;
+    color:#fff;
+}
+
+.email {
+    position: fixed;
+    width: 4rem;
+    height: 4rem;
+    bottom: 2.8rem;
+    left: 52%;
+    top: 76%;
+    background-color: dodgerblue;
+    border-radius: 3.5rem;
+    text-align: center;
+    font-size: 2rem;
+    box-shadow: 2px 2px 3px #999;
+}
+
+.email-icon {
+    margin-top: 1.1rem;
+}
+
+.fa-envelope-square {
+    margin-top: 0.5rem;
+    font-size: 2.6rem;
+    color:#fff;
+}
+
+@media only screen and (min-width: 1024px) { 
+
+#popup #popup-child {
+    width: 50rem;
+    height: 35.7rem;
+    top: calc(50% - 17.8rem);
+    left: calc(50% - 24rem);
+}
+
+#button {
+    width: 12.8rem;
+    height: 3.6rem;
+    font-size: 2rem;
+    top: 65%;
+    left: calc(49% - 4rem);
+}
+
+#table1 {
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+  
+td, th {
+    padding: 1rem;
+}
+  
+#table2 {
+    margin-left: 25rem;
+    margin-top: 2rem;
+}
+
+.whatsapp_float {
+    width: 4rem;
+    height: 4.3rem;   
+    left: 46%;
+    top: 76%;
+}
+
+.email {
+    height: 4.3rem;
+    left: 53%;
+    top: 76%;
+}
+
+.fa-envelope-square {
+    margin-top: 0.71rem;
+    }
+}

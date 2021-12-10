@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body id="body">
+    <header>
+        <div id="menu-bar">
+            <div id="menu">
+            <i class="fas fa-bars" id="bar1" class="bar"></i>
+            </div>
+            <ul class="nav" id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="menu-bg" id="menu-bg">
+        </div>
+    </header>
+    <form class="for" method="GET">
+        <label for="full_name">full name</label>
+        <input type="text" name="full_name" placeholder="please enter your name" class="text"><br>
+        <label for="email">email</label>
+        <input type="text" name="mail" placeholder="please enter your email" class="text"><br>
+        <label for="number_phone">number phone</label>
+        <input type="text" name="phone" placeholder="please enter your phone" class="text"><br>
+        <label for="your_age">what is your age?</label>
+        <input type="number" name="age" placeholder="your age" class="text"><br>
+        <input type="button" id="user_submit" value="send">
+    </form>
+    <section class="userinfo">
+        <p class="user_data">name user:</p>
+        <p class="user_data">email user:</p>
+        <p class="user_data">phone user:</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO9gQCMze1A6jyu54tDPTu_CBmFJPAgiegXQ&usqp=CAU" alt="lamborgini" id="picture"> 
+    </section>
+    <script src="scripts.js"></script>
+</body>
+</html>

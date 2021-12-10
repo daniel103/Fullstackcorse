@@ -1,0 +1,58 @@
+// Define an array that holds 5 values, and console.log the index and the value 
+// using foreach loop. 
+let myArr = ['tal', 'luke', 'adam', 'miri', 'yorai'];
+myArr.forEach( (value, index) => {
+    console.log('value: '+value+' index: '+index);
+})
+
+// Define an array that holds 3 values, one is negative, one is zero and one
+// is positive. for each value console log either negative\zero\positive
+let myArr1 = [-1,0,1];
+myArr1.forEach( (value, index) => {
+    if ( value < 0 ) {
+        console.log('negative');
+    } else if ( value == 0 ) {
+        console.log('zero');
+    } else {
+        console.log('positive')
+    }
+});
+
+// Create in your html, inside the body tag an H1 element. 
+// in your code, create a P element, insert the words "Hello world",
+// and append it to the DOM.
+
+let par = document.createElement('p');
+par.innerHTML = 'Hello world';
+document.body.appendChild(par);
+
+// Define another element of H2 type, and do the same thing with it,
+// but this time before appending it change its color to red.
+let h2 = document.createElement('h2');
+h2.style.color = '#FF0000';
+h2.innerHTML = 'Hello Title';
+document.body.appendChild(h2);
+
+// Change your code, to also change the font size and font family and 
+// background color of that last h2.
+let h3 = document.createElement('h3');
+h3.style.color = '#FF0000';
+h3.style.backgroundColor = '#fff';
+h3.style.fontFamily = 'Tahoma';
+h3.style.fontSize = '40px';
+h3.innerHTML = 'Hello Title';
+document.body.appendChild(h3);
+
+// Create in your html another p element and give it an ID. 
+// in your CSS define it to 'display: none;'
+// create another button element, and give it an ID too.
+// target the button element and bind it an event listener, to change the display
+// of th P to block;
+let btn = document.getElementById('my-btn');
+let par1 = document.getElementById('my-p');
+btn.addEventListener( 'click', (event) => {
+    if ( par1.style.display == 'none')
+        par1.style.display = 'block';
+    else
+        par1.style.display = 'none';
+})

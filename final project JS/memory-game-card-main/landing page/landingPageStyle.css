@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    background-image: url(./photos/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+p{
+    width: 15rem;
+}
+
+.land-page-container{
+    margin-top: 6vh;
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+.developer-id-card{
+    justify-content: center;
+    text-align: center;
+}
+
+.profile-pic-setup{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    border-width: 5mm;
+    border-color: black;
+}
+
+#Play-With-us{
+    border-radius: 1mm;
+    margin: 3rem calc(50% - 5rem);
+    font-size: 1.5rem;
+    height: 3rem;
+    width: 10rem;
+    background-color: rgb(17, 192, 192);
+    color: #fff;
+    cursor: pointer;
+}
+
+@media only screen and ( min-width: 1024px ) {
+    .profile-pic-setup{
+        max-width:215px;
+        height: 215px;
+        border-radius: 50%;
+        border-width: 5mm;
+        border-color: black;
+    }
+
+    body{
+        margin-top: 35vh;
+    }
+}

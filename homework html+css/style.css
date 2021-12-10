@@ -1,0 +1,22 @@
+body{
+    direction: rtl;   
+}
+
+h1 {
+    color: rgb(0, 217, 255);
+    font-size: 20px;
+}
+#sent {
+    background-color: green;
+    color: white;
+    border-radius: 30px;
+    width: 270px;
+    height: 40px;
+}
+.borter{
+    background-color: yellow;
+    font-size: 24px;
+    color: purple;
+    border-color: royalblue;
+    box-shadow: 5px 10px;
+}
