@@ -1,0 +1,11 @@
+1. Create float (stay in place) btn that open modal
+
+2. Modal have 3 element -
+	1. input for image url
+	2. input for post description
+	3. Crate new post btn
+
+3. when creating new post the postBy field will be generated 
+by the user that is login 
+
+4. test with couple of users

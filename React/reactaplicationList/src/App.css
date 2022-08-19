@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.App {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-wrapper {
+  height: 120px;
+  width: 80vw;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-wrapper > button {
+  width: 60px;
+  background-color: gray;
+}
+
+.form-input-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.toggle-all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+  padding-top: 20px;
+}
+
+.todo-list-wrapper{
+  margin-top: 20px;
+  border: 1px solid black;
+  width: 80vw;
+  height: 200px;
+}
+
+.todo-item-wrapper {
+  width: 85%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.todo-item-actions {
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
