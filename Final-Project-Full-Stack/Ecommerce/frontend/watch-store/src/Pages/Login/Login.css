@@ -1,0 +1,30 @@
+.Login {
+    display: flex;
+    width: 600px;
+    height: 650px;
+    background-color: rgb(102, 186, 211);
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.login-warper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 260px;
+}
+
+h1 {
+    color:rgb(51, 90, 197);
+}
+
+.button-login{
+   margin-top: 15px !important;
+}

@@ -1,0 +1,26 @@
+.shoppingAddress {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+    background: aliceblue;
+    height: 85vh;
+    justify-content: space-between;
+}
+
+.btn-form {
+    background-color: chocolate;
+    color: gold;
+    width: 140px;
+    height: 39px;
+    font-size: 20px;
+    margin-top: 8px;
+    border-radius: 11px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #000;
+}
+
+.input {
+    margin-top: 5px;
+}

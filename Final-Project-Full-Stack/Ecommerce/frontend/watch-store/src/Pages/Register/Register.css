@@ -1,0 +1,55 @@
+.Register-container {
+    justify-content: center !important;
+    display: flex;
+}
+
+.box {
+    height: 600px;
+    width: 800px;
+    background-color: #e4d6ca;
+    flex-wrap: wrap;
+}
+
+.text-field {
+    display: flex;
+    margin-top: 50px;
+    height: 300px;
+    width: 800px;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    margin: 5px;
+}
+
+.Button-register {
+    width: 181px;
+    height: 43px;
+}
+h1 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 2.8rem;
+    color: rgb(39, 108, 126);
+}
+
+P {
+    color: red;
+    font-size: 15px;
+}
+
+TextField {
+    position: relative;
+}
+
+.eye{
+    cursor: pointer;
+}
+
+.login-btn {
+    margin-left: 46% !important;
+}

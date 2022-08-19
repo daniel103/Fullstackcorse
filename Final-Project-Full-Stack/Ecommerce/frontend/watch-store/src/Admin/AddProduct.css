@@ -1,0 +1,15 @@
+.add-product {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 65vh;
+    align-content: center;
+}

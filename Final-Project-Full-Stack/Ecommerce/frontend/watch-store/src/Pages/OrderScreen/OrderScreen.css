@@ -1,0 +1,23 @@
+.PlaceOrderScreen {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.order {
+    background-color: rgba(35, 126, 168, 0.911);
+}
+
+.btn-PlaceOrder {
+    background-color: chocolate;
+    color: gold;
+    width: 180px;
+    height: 39px;
+    font-size: 20px;
+    margin-top: 8px;
+    border-radius: 11px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #000;
+}

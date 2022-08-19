@@ -1,0 +1,76 @@
+#text-search{
+    display: flex;
+    text-align: space;
+    text-align: inherit;
+    background: rgb(235, 235, 252);
+    /* position: absolute; */
+}
+
+.search {
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    direction: ltr;
+}
+
+#icon-search {
+    /* background-color:rgb(168, 168, 221); */
+    /* border: 1px solid #000; */
+    border-radius: 5px;
+    font-size: 1.8rem;
+    /* color: #dab165; */
+    /* position: absolute; */
+}
+
+.Products {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 1rem;
+  }
+  
+  
+  .price {
+    margin-top: 5px;
+    color: rgb(129, 34, 101);
+  }
+  
+  .card {
+    width: 400px !important;
+    height: 400px !important;
+    text-align: center !important;
+    border: 1px solid rgb(236, 198, 114);
+    margin: 6px;
+    border-radius: 3px !important;
+  }
+  
+  .button {
+      font: bold 12px Arial, Helvetica, sans-serif;
+      line-height: 23px;
+      height: 50px;
+      width: 140px;
+      margin-top: 0.5rem !important;
+      cursor: pointer;
+      padding: 0px 16px 0px 16px !important;
+      background-color: #1b488b !important;
+      margin: 0;
+      border: 0;
+      text-align: center;
+      font-weight: 900;
+      height: 23px;
+      color: #ddb812 !important;
+      border-radius: 2px;
+      border: 0.5px solid #000 !important;
+    }
+    
+    
+    button.button:hover {
+      opacity: 0.85;
+      background-color: #000 !important;
+  }
