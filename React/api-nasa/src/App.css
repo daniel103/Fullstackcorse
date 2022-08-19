@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title-warpper {
+  margin-right: 20px;
+  margin-top: 50px;
+  padding-left: 40px;
+  font-size: 45px;
+}
+
+.icon {
+  direction: rtl;
+  padding: 10px;
+  margin: 10px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+
+body {
+  font-family: 'Righteous', cursive;
+  color: #c05749;
+  line-height: 1.7;
+  font-size: 19px;
+  background-color: #222222;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23424242' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+ 
+
+.flex {
+  display: flex;
+}
+
+.photo {
+  width: 600px;
+  height: 470px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.Components {
+  display: block;
+  margin-left: 100px;
+  width: 1000px;
+  height: 500px;
+}
+
+.Component {
+  display: flex;
+
+}
+
+#date {
+  font-size: 22px;
+  text-align: left;
+  background-color: #364e81;
+  color: rgb(197, 167, 35);
+  cursor: pointer;
+}
+
+.date {
+  margin-left: 40px;
+  height: 30px;
+  font-size: 22px;
+  text-align: left;
+  color: rgb(37, 126, 67);
+  cursor: pointer;
+}
