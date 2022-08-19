@@ -1,0 +1,8 @@
+npm init -y = package.json
+npm install express
+npm install = node moduls
+npm install -g nodemon = install nodemon
+nodemon = runnning index.js
+npm i cookie-parser
+npm i dotenv = install file .env
+npm i mongoose = install mongoDB

@@ -1,0 +1,6 @@
+npx create-react-app nameProject
+cd my-app
+npm start
+
+rafce = new component
+npm insatll react-router-dom

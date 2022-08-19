@@ -1,0 +1,15 @@
+.\mongod.exe - terminal 1
+mongo.exe - terminal 2
+use collection name-new db
+db.collection name.insertOne - one object
+db.collection name.insertMany - many objects
+db.collection name.find() - all Doucuments
+db.collection name.find({}) - filter
+db.collection name.find({ price: {$lte: 600 }}) - filter less then
+db.collection name.find({ price: {$gte: 600 }}) - filter grater then
+db.collection name.updateOne({ property: nameproperty}, { $set: { some somting key and value}})
+db.collection name.updateMany({  propertyquery  {name}}, { $set: { some somting key and value}})
+db.collection name.deleteOne({ key:value })
+
+
+mongodb+srv://datamongouser:<password>@cluster0.pbfly.mongodb.net/test

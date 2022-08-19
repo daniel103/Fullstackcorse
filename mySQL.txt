@@ -1,0 +1,17 @@
+CREATE DATABASE name db = new db
+USE name db = connect db
+CREATE TABLE warriors(
+	warrior_id int auto_increment primary key,
+    warrior_name varchar(255) NOT NULL,
+    warrior_age int NOT NULL CHECK(warrior_age >= 1 and warrior_age <= 70),
+    join_in DATE default (CURRENT_DATE),
+    weapon_id  int  NOT NULL 
+) = CREATE TABLE
+
+INSERT INTO table_name (colum1, colum2, colum3)
+VALEUES ("jhon", 22, "2022-02-02", false) = Values Table
+
+SELECT * FROM warriors INNER JOIN weapons ON warriors.warrior_id = weapons.weapon_id order by power asc = filter moreThen
+
+SELECT * FROM warriors INNER JOIN weapons ON warriors.warrior_id = weapons.weapon_id order by power desc = filter lessThen
+

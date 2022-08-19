@@ -1,0 +1,5 @@
+npm i redux react-redux
+# NPM
+npm install @reduxjs/toolkit
+npm install @reduxjs/toolkit react-redux
+
