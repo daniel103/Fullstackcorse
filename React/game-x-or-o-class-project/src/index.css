@@ -1,0 +1,52 @@
+body{
+  background-color: rgb(95, 144, 177);
+}
+
+.square{
+  color:blue;
+  background-color: rgb(255, 174, 0);
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  margin: 0;
+  font-size: 50px;
+}
+.game{
+  justify-content: center;
+  text-align: center;
+  display: block;
+
+}
+
+.game-info{
+  margin: 0;
+  
+}
+
+button{
+  margin: 0;
+}
+
+.game-board{
+  background-color: rgba(216, 40, 69, 0.788);
+  color: #ffffff;
+  font-size: 22px;
+  height: 45px;
+  width: 190px;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+ol{
+list-style: none;
+  font-size: 20px;
+  height: 61px;
+  width: 160px;
+  border-radius: 14px;
+}
+
+.status{
+  font-size: 40px;
+  background-color: rgb(150, 148, 37);
+  text-align: center;
+}
