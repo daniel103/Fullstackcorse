@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "name": "Captain America",
+      "power": 80
+    },
+    {
+      "id": 2,
+      "name": "Iron Man",
+      "power": 60
+    },
+    {
+      "id": 3,
+      "name": "SpiderMan",
+      "power": 90
+    }
+  ]

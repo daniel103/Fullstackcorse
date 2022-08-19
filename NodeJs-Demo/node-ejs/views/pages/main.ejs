@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("../partials/head", { title:"main" }) %>
+  <body>
+    <%- include("../partials/navbar") %>
+    <h1>I'm main page</h1>
+    <% animals.forEach(animal => { %>
+    <h3><%= animal.name %></h3>
+    <h6>Type: <%= animal.type %></h6>
+    <hr />
+    <% }) %> <%- include("../partials/footer") %>
+  </body>
+</html>

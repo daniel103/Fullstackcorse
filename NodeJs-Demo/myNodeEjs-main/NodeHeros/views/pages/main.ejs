@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include("../partials/head", { title: "main" } ) %>
+<body>
+    <%- include("../partials/navbar") %>
+    <% heroes.forEach(hero => { %>
+        <div class="heroes">
+            <h4><%- hero.id %></h4>
+            <h3><%- hero.name %></h3>
+            <h5><%- hero.power %></h5>
+        </div>
+        <hr/>
+    <% }) %>
+    <%- include("../partials/footer") %>
+</body>
+</html>
+

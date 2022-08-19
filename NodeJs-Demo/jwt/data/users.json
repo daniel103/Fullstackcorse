@@ -1,0 +1,17 @@
+[
+  {
+    "id": "c64acf7e-8073-4c9c-bdaf-49f7618af517",
+    "username": "IronMan",
+    "password": "$2b$10$jN38CLxpm524mPD1Tp7dtemK7TSApUNlSVLORkxZ1JcLiXBRvDjFG"
+  },
+  {
+    "id": "7a48601d-92ec-4ed6-aaca-4c104fc55061",
+    "username": "SpiderMan",
+    "password": "$2b$10$1R2KfWbBpam3i2/VjEaUKearuHZSc5BVcW62wDRJcVIHAo6UCijSq"
+  },
+  {
+    "id": "6ab61d71-a472-4a0e-a1dd-4b8eac539916",
+    "username": "Flash",
+    "password": "$2b$10$GQfNpeVhxsWtk0pVRS70de2/S8hth9Jbh1N9H6kSY9l3wVQ0qIAse"
+  }
+]

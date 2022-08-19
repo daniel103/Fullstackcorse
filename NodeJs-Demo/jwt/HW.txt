@@ -1,0 +1,5 @@
+1. delete tweet - by id (can delete only his own)
+
+2. /register - bcrypt
+
+3. refreshToken

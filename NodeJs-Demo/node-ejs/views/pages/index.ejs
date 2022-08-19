@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("../partials/head", { title:"index" }) %>
+  <body>
+    <%- include("../partials/navbar") %>
+    <h1>Hello there Cool <%= user.firstName %></h1>
+    <p>with the last name <%= user.lastName %></p>
+    <% if(user.admin) { %>
+    <p>I know you secret!!!</p>
+    <% } %><%- include("../partials/footer") %>
+  </body>
+</html>

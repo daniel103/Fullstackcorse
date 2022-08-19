@@ -1,0 +1,15 @@
+build server from 0
+
+1. users.json file with user - {
+    id: uuid,
+    name: string,
+    age: number
+}
+
+2. route that create new user and save the age in cookie
+
+3. route that send what is your next age by cookie, if
+no name the route return "you need to create a user"
+
+4. bouse - create a middleware that save the last user 
+that created on request object
