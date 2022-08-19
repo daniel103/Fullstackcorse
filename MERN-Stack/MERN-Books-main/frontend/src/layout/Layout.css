@@ -1,0 +1,26 @@
+.header-links-container {
+  margin-left: auto;
+  list-style: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.header-links-container > li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.header-links-container > li > a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.header-links-container > li > a:hover {
+  color: #ffffff;
+}
+
+.link-active {
+  color: #ffffff !important;
+}
+
+.header-login-btn {
+  margin-left: auto;
+}

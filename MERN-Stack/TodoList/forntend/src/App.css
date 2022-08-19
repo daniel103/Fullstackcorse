@@ -1,0 +1,67 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background: var(--dark-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.add-todo-form {
+  width: 80%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-white);
+  border-radius: 8px;
+}
+
+.add-todo-form :nth-child(1) {
+  margin: 0 20px;
+}
+
+.todo-list-container {
+  width: 80%;
+  height: 60%;
+  background-color: var(--main-white);
+  border-radius: 8px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todo-item-container {
+  display: flex;
+  width: 80%;
+  height: 40px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.todo-item-completed {
+  text-decoration: line-through;
+}
+
+.todo-item-action {
+  display: flex;
+  width: 35px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo-item-action > button {
+  background: none;
+  padding: 3px;
+  border: 1px solid var(--dark-blue);
+  border-radius: 5px;
+}

@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap");
+
+:root {
+  --dark-blue: #34495e;
+  --main-white: #ecf0f1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
