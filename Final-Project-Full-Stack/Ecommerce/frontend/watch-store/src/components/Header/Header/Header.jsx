@@ -97,7 +97,7 @@ const Header = () => {
         </Box>
           <div className="logo">
             <a href='http://localhost:3000/'>
-          <img src="https://www.jomashop.com/dist/jomashop_logo.4deeb6390bc79558087f10a7277140fa.png" alt="logo" id="logo" />
+          <img src="https://www.jomashop.com/dist/jomashop_logo.1590bcd618a33f26d6369c4066b82aaf.png" alt="logo" id="logo" />
           </a>
           </div>
       </Toolbar>

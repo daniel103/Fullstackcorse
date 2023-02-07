@@ -41,9 +41,11 @@
     text-align: center;
 }
 
-.btn-checkout {
-    background-color: chocolate;
-    color: #fff;
+#button-checkout {
+    background-color: rgb(54, 127, 133);
+    color: rgb(199, 177, 81);
+    font-size: 1.2rem;
+    height: 2rem;
     border-radius: 5px;
     border: 1px solid #000;
     text-align: center;
@@ -53,4 +55,28 @@
 
 .link {
     text-align: center;
+    margin: 20px;
+    color: rgb(0, 102, 255);
+}
+
+
+.btn-icons{
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+#btn-minus{
+    color: red;
+}
+
+#btn-plus{
+    color: green;
+}
+
+#btn-delete{
+    color: chocolate;
 }

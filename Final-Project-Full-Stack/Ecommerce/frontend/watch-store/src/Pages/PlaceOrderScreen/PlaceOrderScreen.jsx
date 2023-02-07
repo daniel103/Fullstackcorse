@@ -67,14 +67,13 @@ export default function PlaceOrderScreen() {
       <h1 className="my-3">Preview Order</h1>
       <Row className="PlaceOrderScreen">
         <Col md={8}>
-          <div>
-                <strong>Name:</strong> {cart.shoppingAddress.fullName} <br />
-                <strong>Address: </strong> {cart.shoppingAddress.address}<br />
-                <strong>City: </strong> {cart.shoppingAddress.city}<br />
-                <strong>PostalCode: </strong> {cart.shoppingAddress.postalCode}<br />
-                <strong>Country: </strong> {cart.shoppingAddress.country}
-          </div>
-              <Link to="/order">Edit</Link>
+          <div className="order-clint">
+                <strong>Name: {cart.shoppingAddress.fullName} </strong> 
+                <strong>Address: {cart.shoppingAddress.address} </strong>
+                <strong>City: {cart.shoppingAddress.city} </strong>
+                <strong>PostalCode: {cart.shoppingAddress.postalCode} </strong>
+                <strong>Country: {cart.shoppingAddress.country} </strong>
+              <Link to="/order" className='edit'>Edit</Link>
               <ListGroup variant="flush">
                 {cart.cartItems.map((item) => (
                   <ListGroup.Item key={item._id}>
@@ -84,25 +83,26 @@ export default function PlaceOrderScreen() {
                           src={item.image}
                           alt={item.name}
                           className="img-fluid rounded img-thumbnail"
-                        ></img>{' '}
+                          ></img>{' '}
                         <Link to={`/product/${item._id}`}>{item.name}</Link>
                       </Col>
                       <Col md={3}>
                         <span>{item.quantity}</span>
                       </Col>
-                      <Col md={3}>₪{item.price}</Col>
+                      <Col md={3}>Price: ₪{item.price}</Col>
                       <span>{item.date}</span>
-                      <strong>₪{item.total = total}</strong>
+                      <strong>Total ₪{item.total = total}</strong>
                     </Row>
                   </ListGroup.Item>
                 ))}
               </ListGroup>
-              <Link to="/cart">Edit</Link>
+              <Link to="/cart" className="edit">Edit</Link>
+                    </div>
         </Col>
         <Col md={4}>
               <ListGroup variant="flush">
                 <ListGroup.Item>
-                  <Row>
+                  <Row className='order-total'>
                     <Col>
                       <strong> Order Total</strong>
                     </Col>
@@ -117,7 +117,7 @@ export default function PlaceOrderScreen() {
                       type="button"
                       onClick={placeOrderHandler}
                       disabled={cart.cartItems.length === 0}
-                    >
+                      >
                       Place Order
                     </Button>
                   </div>

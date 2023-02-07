@@ -21,3 +21,26 @@
     cursor: pointer;
     border: 1px solid #000;
 }
+
+.order-clint {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(212, 203, 116);
+    text-align: center;
+    width: 25vw;
+    font-size: 1.5rem;
+    color: seagreen;
+    border-radius: 10px;
+}
+
+.order-total{
+    color: rgb(187, 101, 221);
+    font-size: x-large;
+    background-color: rgb(122, 16, 81);
+    margin-top: 8px;
+    border-radius: 6px;
+}
+
+.edit{
+    color: rgb(145, 9, 72);
+}

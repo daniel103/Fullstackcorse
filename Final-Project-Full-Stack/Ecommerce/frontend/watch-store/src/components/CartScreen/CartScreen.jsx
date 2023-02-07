@@ -56,21 +56,21 @@ const total = cartItems.reduce((a, c) => a + c.quantity * c.price , 0)
                         className="img-fluid rounded img-thumbnail"
                       ></img>{' '}
                       <Link className="subModel" to={`/product/${item._id}`}>{item.subModel}</Link>
-                      <Button variant="light" className="btn"
+                      <Button variant="light" className="btn-icons" id='btn-minus'
                       onClick={() => updateCartHandler(item, item.quantity - 1)}
                       disabled={item.quantity === 1}>
                         <i className="fas fa-minus-circle"></i>
                       </Button>{' '}
                       <span>{item.quantity}</span>{' '}
                       <Button
-                        variant="light" className="btn"
+                        variant="light" className="btn-icons" id='btn-plus'
                         onClick={() => updateCartHandler(item, item.quantity + 1)}
                         disabled={item.quantity === item.countInStock}
                       >
                         <i className="fas fa-plus-circle"></i>
                       </Button>
                     <Col md={2}>
-                      <Button className="btn"
+                      <Button className="btn-icons" id='btn-delete'
                       onClick={() => removeItemHandler(item)}
                       variant="light"
                       >
@@ -94,7 +94,7 @@ const total = cartItems.reduce((a, c) => a + c.quantity * c.price , 0)
                     <Button
                       type="button"
                       variant="primary"
-                      className="btn-checkout"
+                      id="button-checkout"
                       onClick={checkoutHandler}
                       disabled={cartItems.length === 0}
                     >

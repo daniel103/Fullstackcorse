@@ -67,10 +67,10 @@ export default function OrderScreen() {
   ) : (
     <div className="order">
       <Header />
-      <h1 className="my-3">Order {orderId}</h1>
+      <h1>The order was created successfully</h1>
       <Row className="PlaceOrderScreen">
         <Col md={8}>
-
+        <strong>order:</strong> {orderId} <br />
                 <strong>Name:</strong> {order.shoppingAddress.fullName} <br />
                 <strong>Address: </strong> {order.shoppingAddress.address}<br />
                 <strong>City: </strong> {order.shoppingAddress.city}<br />
